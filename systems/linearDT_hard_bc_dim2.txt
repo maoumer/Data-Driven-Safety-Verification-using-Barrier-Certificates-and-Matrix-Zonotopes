@@ -1,0 +1,21 @@
+poly deg: 1
+status: SLOW_PROGRESS
+B: -0.16006*x[1] + 0.52168*x[2] - 4796.92785
+Coefficients: [-4796.92785, -0.16006, 0.52168]
+Monomials: Monomial{true}[1, x₁, x₂]
+time: 18.4798267
+
+poly deg: 2
+status: SLOW_PROGRESS
+B: 0.0
+Coefficients: [-0.0, -0.0, 0.0, -0.0, 0.0, -0.0]
+Monomials: Monomial{true}[1, x₁, x₂, x₁², x₁x₂, x₂²]
+time: 1.3205035
+
+poly deg: 3
+status: OPTIMAL
+B: 0.21028*x[1]^2 - 0.00375*x[1]*x[2] + 0.20497*x[2]^2 + 0.75363*x[1] - 1.19902*x[2] - 0.52708
+Coefficients: [-0.52708, 0.75363, -1.19902, 0.21028, -0.00375, 0.20497, -0.0, -0.0, -0.0, 0.0]
+Monomials: Monomial{true}[1, x₁, x₂, x₁², x₁x₂, x₂², x₁³, x₁²x₂, x₁x₂², x₂³]
+time: 65.4498095
+
